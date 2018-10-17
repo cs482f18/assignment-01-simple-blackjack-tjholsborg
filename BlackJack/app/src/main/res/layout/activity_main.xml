@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/Red">
+
+    <TextView
+        android:id="@+id/BlackjackLabel"
+        style="@style/BlackjackLabelStyle"
+        />
+
+    <ImageView
+        android:id="@+id/SpadePicture"
+        android:layout_below="@id/BlackjackLabel"
+        android:src="@drawable/spade"
+        style="@style/MenuImageStyle"
+        />
+
+    <Button
+        android:id="@+id/NewGameButton"
+        android:layout_below="@id/SpadePicture"
+        style="@style/MenuButtonStyle"
+        android:onClick="startGame"
+        />
+
+</RelativeLayout>

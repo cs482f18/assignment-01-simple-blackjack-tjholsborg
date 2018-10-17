@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:background="@color/Ivory">
+
+    <ImageView
+        android:id="@+id/DealerCardOne"
+        android:layout_toLeftOf="@id/DealerCardTwo"
+        android:layout_marginTop="20dp"
+        style="@style/CardImageStyle"/>
+
+    <ImageView
+        android:id="@+id/DealerCardTwo"
+        android:layout_toLeftOf="@id/DealerCardThree"
+        android:layout_marginTop="20dp"
+        style="@style/CardImageStyle"
+        />
+
+    <ImageView
+        android:id="@+id/DealerCardThree"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        style="@style/CardImageStyle"/>
+
+    <ImageView
+        android:id="@+id/DealerCardFour"
+        android:layout_toRightOf="@id/DealerCardThree"
+        android:layout_marginTop="20dp"
+        style="@style/CardImageStyle"/>
+
+    <ImageView
+        android:id="@+id/DealerCardFive"
+        android:layout_toRightOf="@id/DealerCardFour"
+        android:layout_marginTop="20dp"
+        style="@style/CardImageStyle"/>
+
+    <TextView
+        android:id="@+id/DealerTotal"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/dealer_total"
+        android:layout_below="@id/DealerCardOne"/>
+
+    <TextView
+        android:id="@+id/WinnerText"
+        android:layout_width="225dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/PlayerCardOne"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:textSize="40dp"
+        android:visibility="invisible"/>
+
+
+
+    <Button
+        android:id="@+id/ClearBoardButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="New Game"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/PlayerCardOne"
+        android:layout_marginBottom="40dp"
+        android:background="@color/Purple"
+        android:onClick="ClearBoardClick"
+        />
+
+
+    <ImageView
+        android:id="@+id/PlayerCardOne"
+        android:layout_above="@id/PlayerTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@id/PlayerCardTwo"
+        style="@style/CardImageStyle"/>
+
+    <ImageView
+        android:id="@+id/PlayerCardTwo"
+        android:layout_above="@id/PlayerTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@id/PlayerCardThree"
+        style="@style/CardImageStyle"/>
+
+    <ImageView
+        android:id="@+id/PlayerCardThree"
+        android:layout_above="@id/PlayerTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        style="@style/CardImageStyle"/>
+
+    <ImageView
+        android:id="@+id/PlayerCardFour"
+        android:layout_above="@id/PlayerTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/PlayerCardThree"
+        style="@style/CardImageStyle"/>
+
+    <ImageView
+        android:id="@+id/PlayerCardFive"
+        android:layout_above="@id/PlayerTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/PlayerCardFour"
+        style="@style/CardImageStyle"/>
+
+    <TextView
+        android:id="@+id/PlayerTotal"
+        android:text="@string/player_total"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@id/HitButton"/>
+
+
+
+    <Button
+        android:id="@+id/HitButton"
+        style="@style/HitButtonStyle"
+        android:onClick="Hit"/>
+
+    <Button
+        android:id="@+id/StandButton"
+        style="@style/StandButtonStyle"
+        android:onClick="Stand"/>
+
+
+
+</RelativeLayout>

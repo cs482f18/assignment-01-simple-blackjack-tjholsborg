@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BlackjackLabelStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:text">Blackjack</item>
+        <item name="android:textSize">75sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">100dp</item>
+    </style>
+
+    <style name="MenuImageStyle" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="MenuButtonStyle" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:text">New Game</item>
+        <item name="android:layout_marginTop">35dp</item>
+        <item name="android:layout_marginBottom">35dp</item>
+        <item name="android:background">@color/Yellow</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="HitButtonStyle" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:text">Hit</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="StandButtonStyle" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:text">Stand</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="CardImageStyle" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:src">@drawable/back</item>
+    </style>
+
+</resources>
