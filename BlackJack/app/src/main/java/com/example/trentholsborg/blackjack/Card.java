@@ -1,5 +1,11 @@
 package com.example.trentholsborg.blackjack;
 
+/**
+ * Add javadoc comment to describe the class with @author and @version. For example, 
+ * A class to represent a Card object
+ * @author Trent Holsborg
+ * @version 1.0 10/05/2018
+ */ 
 public class Card
 {
     public String suit;
