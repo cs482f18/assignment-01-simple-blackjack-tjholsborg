@@ -50,3 +50,7 @@ _Notes:_
 *	Assignment Duration: Even though this program is relatively simple, you are being given some extra-time to do this assignment because there is a learning-time involved picking up android studio and app development. *Do not wait till the last week to do this assignment*. *Start working on it right away*. 
 
 *	Late Submission: Following the general principle specified in the Syllabus, for this assignment, a late penalty of 10% will be applied if submitted within 24 hours of the due date (Fri, Oct 05). If you submit after 24 hours of the due date but within 72 hours (Sun, Oct 07), you will receive a penalty of 20%. 
+
+
+Trent Demo:
+https://youtu.be/v-AR5_eyJiM
