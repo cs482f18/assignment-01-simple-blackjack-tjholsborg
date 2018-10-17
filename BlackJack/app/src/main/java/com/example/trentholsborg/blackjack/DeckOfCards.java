@@ -1,5 +1,8 @@
 package com.example.trentholsborg.blackjack;
 
+/** 
+ * Add Javadoc on top of every class
+ */
 
 import android.util.Log;
 
@@ -8,6 +11,7 @@ import java.util.Random;
 
 public class DeckOfCards
 {
+   /** Add javadoc to describe your instance varaible */
     private ArrayList<Card> deck;
 
     /**
